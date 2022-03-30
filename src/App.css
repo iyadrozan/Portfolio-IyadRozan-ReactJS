@@ -4,6 +4,7 @@
   --white: #fff;
   --black: #040c18;
   --orange: #ff4820;
+  --orange-hover: #ff4920c9;
   --DarkBlue: #002853;
   --DarkBlue2: #042c54;
   --DarkBlue3: #072d56;
@@ -21,6 +22,7 @@ body {
 /* Navbar Styling */
 .navbar {
   font-family: 'Roboto', sans-serif;
+  margin: 3rem;
 }
 
 .navbar-brand {
@@ -45,3 +47,50 @@ body {
   border-radius: 0.1845rem;
   color: var(--white) !important;
 }
+/* Navbar Styling */
+
+/* Header Styling */
+.header h1 {
+  font-family: 'Roboto', sans-serif;
+  cursor: default;
+  font-size: 5rem;
+  font-weight: 900;
+  background: #ae67fa;
+  background: -webkit-linear-gradient(to right, #ae67fa 0%, #f49867 100%);
+  background: -moz-linear-gradient(to right, #ae67fa 0%, #f49867 100%);
+  background: linear-gradient(to right, #ae67fa 0%, #f49867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header span {
+  font-family: 'Roboto', sans-serif;
+  cursor: default;
+  font-size: 4rem;
+  font-weight: 900;
+  background: #ae67fa;
+  background: -webkit-linear-gradient(to right, #ae67fa 0%, #f49867 100%);
+  background: -moz-linear-gradient(to right, #ae67fa 0%, #f49867 100%);
+  background: linear-gradient(to right, #ae67fa 0%, #f49867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header img {
+  height: 45vh;
+}
+
+.header button {
+  background-color: var(--orange);
+  padding: 0.4125rem;
+  margin-left: 8rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--white);
+  border-radius: 2rem;
+  border: none;
+}
+
+.header button:hover {
+  background-color: var(--orange-hover);
+}
+/* Header Styling */

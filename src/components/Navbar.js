@@ -13,7 +13,7 @@ function Navbar() {
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
+              <div class="navbar-nav ms-auto">
                 <a class="nav-link" aria-current="page" href="#">
                   Home
                 </a>
@@ -25,6 +25,9 @@ function Navbar() {
                 </a>
                 <a class="nav-link" href="#">
                   Portfolio
+                </a>
+                <a class="nav-link" href="#">
+                  Contact Me
                 </a>
               </div>
             </div>
