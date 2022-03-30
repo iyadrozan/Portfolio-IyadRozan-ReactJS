@@ -13,6 +13,7 @@ function Header() {
               <h1>IyadRozan</h1>
               <Typed strings={['Web Developer', 'Web Design']} typeSpeed={100} backSpeed={60} loop />
               <br />
+              <br />
               <button>Contact Me</button>
             </div>
             <div class="col-6">

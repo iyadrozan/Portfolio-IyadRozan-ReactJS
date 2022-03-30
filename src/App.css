@@ -94,3 +94,24 @@ body {
   background-color: var(--orange-hover);
 }
 /* Header Styling */
+
+/* About Styling */
+.About {
+  margin-top: 7rem;
+}
+
+.About .container {
+  background-image: linear-gradient(to right bottom, #0f4279, #0d3e72, #0a396b, #083564, #06315d, #063565, #063a6c, #053e74, #074c8d, #0c5aa8, #1369c2, #1b78de);
+  height: 55vh;
+  margin-bottom: 5rem;
+  width: 90vh;
+  border-radius: 1rem;
+}
+
+.About .container .container .row .col-6 h4 {
+  color: var(--white);
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+/* About Styling */
