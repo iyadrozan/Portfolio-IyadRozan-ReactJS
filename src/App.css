@@ -108,10 +108,17 @@ body {
   border-radius: 1rem;
 }
 
-.About .container .container .row .col-6 h4 {
+.About .container .title h1 {
   color: var(--white);
-  margin-top: 1.5rem;
-  padding-left: 1rem;
-  font-size: 2rem;
+  text-align: center;
+  font-variant: small-caps;
+  padding-top: 2.5rem;
+  border-bottom: 0.1587rem solid var(--orange);
+}
+
+.About .container .paragraf p {
+  color: var(--white);
+  text-align: center;
+  padding-top: 2rem;
 }
 /* About Styling */
